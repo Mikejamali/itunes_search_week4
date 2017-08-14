@@ -1,0 +1,56 @@
+header {
+  color: white;
+
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-size: 68px;
+  font-family: monospace;
+}
+
+
+body {
+  background-color: lightblue;
+}
+
+
+#hr {
+border-top: 3px solid black;
+width: 100%;
+}
+
+
+#search_button {
+  padding: 15px;
+  width: 50%;
+  margin: 50px;
+  border-color:  black;
+  /*display: flex;
+  justify-content: flex-end;*/
+}
+
+input {
+    width: 34%;
+}
+
+img {
+  min-width: 100%;
+  height: 200px;
+  font-weight: bold;
+
+}
+
+
+#container div {
+  height: 250px;
+  width: 20%;
+  border: 2px solid black;
+  margin: 20px;
+
+  display: flex;
+  align-items: center;
+  float: left;
+  display: inline-block;
+}
